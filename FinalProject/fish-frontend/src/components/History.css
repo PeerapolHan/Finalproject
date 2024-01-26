@@ -1,0 +1,74 @@
+.PaperWrapper {
+    display: flex;
+  }
+  
+  .CenterPaper {
+    width: 88%;
+    padding: 16px;
+    /* margin: 20px; */
+    animation: fadeIn 1s ease-in-out;
+  }
+  .CenterPaper2 {
+    width: 88%;
+    padding: 16px;
+    /* margin: 20px;  */
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .TableContainer {
+    width: 100%;
+    max-height: 600px;
+  }
+  .ChartHeader {
+    margin: 1rem;
+  }
+
+  .input-container {
+    background-color: white;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    border-color: #444444;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
+  .button-part {
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
+  .TableContainer th {
+    background-color: whitesmoke; /* Change to your desired gray color */
+    border: black;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .navbar-link {
+    padding: auto;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
